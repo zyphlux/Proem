@@ -83,6 +83,6 @@ Development: `ADMIN_DEV=1 pnpm admin` and `pnpm admin:dev` (Vite on :5173).
 | `pnpm screens [url] [dir] [paths…]` | Screenshots at 360–1440px in light and dark, fails on horizontal overflow |
 | `pnpm typecheck` / `pnpm lint` | Type check and lint |
 
-## Credits
+## License
 
-Originally forked from [dillionverma/portfolio](https://github.com/dillionverma/portfolio) (MIT). See [LICENSE](./LICENSE).
+[MIT](./LICENSE)
