@@ -1,0 +1,27 @@
+# /etc/systemd/system/portfolio-admin.service
+# The admin (editing platform). Listens on 127.0.0.1 only; reach it over SSH:
+#   ssh -L 4310:127.0.0.1:4310 -L 4311:127.0.0.1:4311 you@server
+[Unit]
+Description=Portfolio admin
+After=network.target
+
+[Service]
+User=portfolio
+WorkingDirectory=/srv/portfolio/template
+Environment=NODE_ENV=production
+Environment=CONTENT_DIR=/srv/portfolio/content
+Environment=ADMIN_DATA_DIR=/srv/portfolio/data
+Environment=PUBLISH_DIR=/srv/portfolio
+Environment=ADMIN_HOST=127.0.0.1
+Environment=ADMIN_PORT=4310
+ExecStart=/srv/portfolio/template/node_modules/.bin/tsx admin/server/index.ts
+Restart=on-failure
+# Hardening
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ReadWritePaths=/srv/portfolio
+ProtectHome=true
+
+[Install]
+WantedBy=multi-user.target

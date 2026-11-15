@@ -1,0 +1,36 @@
+[
+  {
+    "id": "tidyboard-chi-2026",
+    "title": "TidyBoard: Explaining Dashboards to the People Who Use Them",
+    "authors": [
+      "Alex Rivera",
+      "Jamie Chen",
+      "Priya Nair"
+    ],
+    "venue": "Example Conference on Human Factors (EXCHI), Late-Breaking Work",
+    "venueShort": "EXCHI",
+    "year": 2026,
+    "type": "poster",
+    "links": {
+      "paper": "https://example.com/tidyboard.pdf",
+      "code": "https://github.com/example/tidyboard"
+    },
+    "bibtex": "@inproceedings{rivera2026tidyboard,\n  title = {TidyBoard: Explaining Dashboards to the People Who Use Them},\n  author = {Rivera, Alex and Chen, Jamie and Nair, Priya},\n  year = {2026}\n}",
+    "relatedProjects": [
+      "tidy-board"
+    ]
+  },
+  {
+    "id": "routing-2025",
+    "title": "A Field Study of Route Planning Spreadsheets",
+    "authors": [
+      "Jamie Chen",
+      "Alex Rivera"
+    ],
+    "venue": "Example Workshop on Everyday Data",
+    "venueShort": "EDW",
+    "year": 2025,
+    "type": "workshop",
+    "links": {}
+  }
+]

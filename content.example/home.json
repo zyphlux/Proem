@@ -1,0 +1,38 @@
+{
+  "sections": [
+    {
+      "id": "about",
+      "label": "About",
+      "title": "The person behind the projects.",
+      "aside": "Research / Work / Life"
+    },
+    {
+      "id": "journey",
+      "label": "Journey",
+      "aside": "Learning through doing."
+    },
+    {
+      "id": "work",
+      "label": "Selected work",
+      "title": "A few things I’ve worked on."
+    },
+    {
+      "id": "research",
+      "label": "Research"
+    },
+    {
+      "id": "life",
+      "label": "Outside the screen",
+      "title": "There’s more to life than the next project."
+    }
+  ],
+  "featuredProjects": [
+    "tidy-board",
+    "harbour-map"
+  ],
+  "featuredPhotos": [
+    "coast",
+    "city",
+    "lake"
+  ]
+}

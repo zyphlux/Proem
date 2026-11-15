@@ -1,0 +1,212 @@
+{
+  "current": "2026-01",
+  "versions": [
+    {
+      "id": "2026-01",
+      "file": "alex-rivera-2026.pdf",
+      "downloadName": "Alex-Rivera-Resume.pdf",
+      "uploadedAt": "2026-01-10"
+    },
+    {
+      "id": "2025-06",
+      "file": "alex-rivera-2025.pdf",
+      "downloadName": "Alex-Rivera-Resume-2025.pdf",
+      "uploadedAt": "2025-06-01"
+    }
+  ],
+  "documents": [
+    {
+      "id": "one-page",
+      "name": "English \u00b7 one page",
+      "template": "modern",
+      "style": {
+        "accent": "#245BE5",
+        "font": "sans",
+        "density": "normal",
+        "page": "A4",
+        "margin": 14,
+        "layout": "sidebar-left"
+      },
+      "header": {
+        "phone": false
+      },
+      "sections": [
+        {
+          "key": "summary",
+          "type": "summary"
+        },
+        {
+          "key": "experience",
+          "type": "experience"
+        },
+        {
+          "key": "education",
+          "type": "education",
+          "column": "side"
+        },
+        {
+          "key": "projects",
+          "type": "projects",
+          "items": [
+            {
+              "ref": "tidy-board",
+              "bullets": [
+                "Designed an explanation layer that annotates charts with plain-language summaries.",
+                "Ran a study with 12 planners; trust in dashboards rose in follow-up interviews."
+              ]
+            }
+          ]
+        },
+        {
+          "key": "publications",
+          "type": "publications"
+        },
+        {
+          "key": "skills",
+          "type": "skills",
+          "column": "side",
+          "groups": [
+            {
+              "label": "Languages",
+              "items": [
+                "TypeScript",
+                "Python",
+                "SQL"
+              ]
+            },
+            {
+              "label": "Data",
+              "items": [
+                "DuckDB",
+                "dbt",
+                "Observable Plot"
+              ]
+            },
+            {
+              "label": "Spoken",
+              "items": [
+                "English",
+                "Spanish"
+              ]
+            }
+          ]
+        }
+      ],
+      "downloadName": "Alex-Rivera-Resume.pdf"
+    },
+    {
+      "id": "academic",
+      "name": "Academic CV",
+      "template": "academic",
+      "style": {
+        "accent": "#7A3E3E",
+        "font": "serif",
+        "density": "normal",
+        "page": "A4",
+        "margin": 18
+      },
+      "sections": [
+        {
+          "key": "education",
+          "type": "education"
+        },
+        {
+          "key": "publications",
+          "type": "publications",
+          "title": "Publications"
+        },
+        {
+          "key": "experience",
+          "type": "experience",
+          "title": "Professional experience"
+        },
+        {
+          "key": "service",
+          "type": "list",
+          "title": "Service",
+          "entries": [
+            {
+              "title": "Student volunteer",
+              "subtitle": "Example Conference on Human Factors",
+              "date": "2025"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "minimal-demo",
+      "name": "Custom template demo",
+      "template": "custom:minimal",
+      "style": {
+        "font": "sans",
+        "density": "compact",
+        "page": "Letter",
+        "margin": 12
+      },
+      "sections": [
+        {
+          "key": "summary",
+          "type": "summary"
+        },
+        {
+          "key": "experience",
+          "type": "experience"
+        },
+        {
+          "key": "education",
+          "type": "education",
+          "column": "side"
+        },
+        {
+          "key": "projects",
+          "type": "projects",
+          "items": [
+            {
+              "ref": "tidy-board",
+              "bullets": [
+                "Designed an explanation layer that annotates charts with plain-language summaries.",
+                "Ran a study with 12 planners; trust in dashboards rose in follow-up interviews."
+              ]
+            }
+          ]
+        },
+        {
+          "key": "publications",
+          "type": "publications"
+        },
+        {
+          "key": "skills",
+          "type": "skills",
+          "column": "side",
+          "groups": [
+            {
+              "label": "Languages",
+              "items": [
+                "TypeScript",
+                "Python",
+                "SQL"
+              ]
+            },
+            {
+              "label": "Data",
+              "items": [
+                "DuckDB",
+                "dbt",
+                "Observable Plot"
+              ]
+            },
+            {
+              "label": "Spoken",
+              "items": [
+                "English",
+                "Spanish"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "publicDocument": "one-page"
+}

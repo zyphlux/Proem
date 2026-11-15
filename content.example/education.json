@@ -1,0 +1,23 @@
+[
+  {
+    "id": "vuw-mres",
+    "institution": "Example University",
+    "degree": "Master of Research (Computer Science)",
+    "kind": "Research",
+    "start": "2025-07",
+    "end": null,
+    "expectedEnd": "2027-06",
+    "state": "in-progress",
+    "relatedProjects": [
+      "tidy-board"
+    ]
+  },
+  {
+    "id": "vuw-be",
+    "institution": "Example University",
+    "degree": "Bachelor of Engineering (Civil)",
+    "start": "2020",
+    "end": "2024",
+    "state": "completed"
+  }
+]

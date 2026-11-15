@@ -1,0 +1,7 @@
+/* Custom template example. Target .resume and its children.
+   External resources (url(), @import) are removed when rendering. */
+.resume .m-head { border-left: 4px solid var(--r-accent); padding-left: 1em; margin-bottom: 1.4em; }
+.resume .m-head h1 { font-size: 2em; letter-spacing: -0.02em; }
+.resume .m-headline { color: var(--r-muted); }
+.resume .r-contact { display: flex; flex-wrap: wrap; gap: 0 1em; margin-top: .4em; color: var(--r-muted); font-size: .92em; }
+.resume .r-section-title { font-size: .85em; text-transform: uppercase; letter-spacing: .1em; color: var(--r-accent); }

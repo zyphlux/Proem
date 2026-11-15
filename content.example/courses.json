@@ -1,0 +1,11 @@
+[
+  {
+    "code": "DATA101",
+    "name": "Introduction to Data Science",
+    "institution": "Example University",
+    "tags": [
+      "Data"
+    ],
+    "description": "Example course entry for the learning archive."
+  }
+]

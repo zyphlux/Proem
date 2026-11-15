@@ -1,0 +1,58 @@
+{
+  "name": "Alex Rivera",
+  "authorNames": [
+    "Alex Rivera",
+    "A. Rivera"
+  ],
+  "location": "Wellington, New Zealand",
+  "intro": "I design data tools for people who don’t write code, study how teams make decisions with them, and like long walks with a camera.",
+  "orbitLabels": [
+    "Asks why first.",
+    "Ships small things."
+  ],
+  "interests": [
+    "Data tools",
+    "Human–computer interaction",
+    "Film photography"
+  ],
+  "about": {
+    "statement": "I care about the moment a confusing dataset turns into a clear decision.",
+    "body": "I started in civil engineering, moved into analytics, and now split my time between a product team and a part-time research degree. This site collects what I build, what I write, and what I notice along the way.",
+    "threads": [
+      "Engineering",
+      "Analytics",
+      "Research"
+    ]
+  },
+  "currently": [
+    {
+      "label": "Reading",
+      "value": "The Design of Everyday Things"
+    },
+    {
+      "label": "Playing",
+      "value": "Outer Wilds"
+    }
+  ],
+  "contact": {
+    "title": "Say hello.",
+    "blurb": "For a conversation, a collaboration, or just a good idea.",
+    "email": "alex@example.com",
+    "phone": "+64 00 000 0000",
+    "showPhone": false
+  },
+  "socials": [
+    {
+      "id": "github",
+      "label": "GitHub",
+      "url": "https://github.com/example",
+      "verified": true
+    },
+    {
+      "id": "linkedin",
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/example",
+      "verified": true
+    }
+  ]
+}

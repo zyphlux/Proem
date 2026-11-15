@@ -1,0 +1,31 @@
+# Public site: static files from the current release (see deploy/README.md).
+example.com {
+	root * /srv/portfolio/current
+	encode zstd gzip
+
+	# Old URLs from the previous site
+	redir /projects /work/ 301
+	redir /projects/ /work/ 301
+	redir /blog /notes/ 301
+	redir /blog/* /notes/ 301
+
+	# Hashed build assets never change
+	@immutable path /_next/static/*
+	header @immutable Cache-Control "public, max-age=31536000, immutable"
+
+	header {
+		X-Content-Type-Options nosniff
+		Referrer-Policy strict-origin-when-cross-origin
+		Permissions-Policy "camera=(), microphone=(), geolocation=()"
+	}
+
+	try_files {path} {path}/index.html {path}.html
+	file_server
+	handle_errors {
+		rewrite * /404.html
+		file_server
+	}
+}
+
+# The admin is NOT exposed here. It listens on 127.0.0.1:4310 only;
+# reach it with:  ssh -L 4310:127.0.0.1:4310 you@server

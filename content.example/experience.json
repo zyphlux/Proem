@@ -1,0 +1,35 @@
+[
+  {
+    "id": "acme-analyst",
+    "organization": "Acme Logistics",
+    "organizationUrl": "https://example.com",
+    "role": "Product Data Analyst",
+    "start": "2025-03",
+    "end": null,
+    "location": "Wellington",
+    "responsibilities": [
+      "Built self-serve dashboards used by 40+ planners.",
+      "Ran weekly reviews of forecast accuracy with the operations team."
+    ],
+    "relatedProjects": [
+      "tidy-board"
+    ]
+  },
+  {
+    "id": "acme-intern",
+    "organization": "Acme Logistics",
+    "role": "Data Intern",
+    "employment": "internship",
+    "start": "2024-11",
+    "end": "2025-02"
+  },
+  {
+    "id": "cafe",
+    "organization": "Harbour Café",
+    "role": "Barista",
+    "employment": "part-time",
+    "start": "2021-02",
+    "end": "2024-10",
+    "status": "draft"
+  }
+]

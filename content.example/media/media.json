@@ -1,0 +1,48 @@
+[
+  {
+    "id": "coast",
+    "file": "photos/coast.svg",
+    "alt": "Placeholder image standing in for a coastal photo",
+    "title": "Wandering",
+    "location": "Somewhere on the coast",
+    "date": "2025-01",
+    "albums": [
+      "travel"
+    ],
+    "concept": true
+  },
+  {
+    "id": "city",
+    "file": "photos/city.svg",
+    "alt": "Placeholder image standing in for a city photo",
+    "title": "Noticing",
+    "location": "A city at dusk",
+    "albums": [
+      "travel"
+    ],
+    "concept": true
+  },
+  {
+    "id": "lake",
+    "file": "photos/lake.svg",
+    "alt": "Placeholder image standing in for a lake photo",
+    "title": "Slowing down",
+    "location": "A quiet lake",
+    "albums": [
+      "fishing"
+    ],
+    "concept": true
+  },
+  {
+    "id": "tidy-board-cover",
+    "file": "photos/tidy-board.svg",
+    "alt": "Concept illustration of a dashboard",
+    "concept": true
+  },
+  {
+    "id": "harbour-map-cover",
+    "file": "photos/harbour-map.svg",
+    "alt": "Concept illustration of a map",
+    "concept": true
+  }
+]

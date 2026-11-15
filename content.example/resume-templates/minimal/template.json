@@ -1,0 +1,7 @@
+{
+  "name": "Minimal (custom example)",
+  "description": "An example of a custom template: plain HTML placeholders and CSS. Duplicate a built-in template in the admin to start your own.",
+  "layouts": [
+    "single"
+  ]
+}
